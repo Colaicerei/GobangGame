@@ -46,7 +46,7 @@ class Game extends React.Component {
         super(props);
         this.state = {
             history: [{
-                squares: Array(9).fill(null)
+                squares: Array(SIZE * SIZE).fill(null)
             }],
             stepNumber: 0,
             xIsNext: true
